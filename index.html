@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main_box">
+        <input type="checkbox" id="check">
+        <div class="btn_one">
+            <label for="check">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+
+        <div class="sidebar_menu">
+            <div class="logo">
+                <a href="#">Music Library</a>
+            </div>
+
+            <div class="btn_two">
+                <label for="check">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-music"></i>
+                        <a href="#intro">Intro</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-list-music"></i>
+                        <a href="#featured">Playlists</a>
+                    </li>
+                    <li>
+                        <i class="fa-duotone fa-album"></i>
+                        <a href="#recommended">Albums</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-comments"></i>
+                        <a href="#reviews">Reviews</a>
+                    </li>
+                    
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="#social_media">Connect</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+           
+        </div>
+    </div>
+
+    
+    </section>
+    <section id="intro" class="intro">
+        <div class="intro-text">
+            <h1>Welcome to Music Library</h1>
+            <p>Your ultimate music collection platform.</p>
+
+            <a href="#featured" class="btn">Explore Featured Playlists</a>
+        </div>
+        <div class="intro-image">
+            <img src="music_svg.png" alt="Music SVG">
+        </div>
+    </section>
+
+    <section id="featured" class="featured">
+        <h2>Featured Playlists</h2>
+        <div class="playlist-card">
+            <img src="play1.jpg" alt="Playlist 1">
+            <div class="playlist-info">
+                <h3>Top Hits</h3>
+                <p>A collection of the latest top hits.</p>
+                <span class="song-count">20 songs</span>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="recommended" class="recommended">
+        <h2>Recommended Albums</h2>
+        <input type="text" placeholder="Search albums..." class="search-bar">
+        <div class="album-card">
+            <img src="album5.jpg" alt="Album 1">
+            <div class="album-info">
+                <h3>The Best of Taylor Swift</h3>
+                <p>Artist: 
+                    Taylor Swift</p>
+                <p></p>
+                <button class="know-more">Know More</button>
+            </div>
+        </div>
+       
+    </section>
+
+    <section id="reviews" class="reviews">
+        <h2>User Reviews</h2>
+        <div class="review-cards">
+            <div class="review-card">
+                <img src="review3.jpg.png" alt="User 1">
+                <p>User 1's review text.</p>
+            </div>
+            
+        </div>
+        <form class="review-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Your review" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social_media">
+            <ul>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </ul>
+        </div>
+       
+        <div class="footer-links">
+            <ul>
+                <a href="#" target="_blank">Terms and Conditions</a>
+                <a href="#" target="_blank">Privacy Policy</a>
+            </ul>
+          
+        </div>
+        <div class="copyright">
+            <p> 2024 &copy; Music Library. All rights reserved | udayan</p>
+            <p>Designed by <a href="https://github.com/CoderUdayan">Udayan Mal</a></p>
+
+            
+        </div>
+        <button  class="back-to-top">Back to Top </button>
+
+    </footer>
+</body>
+</html>
